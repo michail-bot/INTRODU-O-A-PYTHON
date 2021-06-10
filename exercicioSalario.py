@@ -6,7 +6,7 @@ if (salario < 1903.98):
 while True:
 
     salario1=float(input("\nDigite um valor de aumento (em reais) para o salario $: "))
-    resultado =salario+salario1
+    resultado = salario + salario1
     if (resultado < 1903.98):
        print("\n Insento de Dedução ")
        print ("\nO salario liquido é:",salario)
